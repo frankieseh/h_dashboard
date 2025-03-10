@@ -1,0 +1,4 @@
+{
+  "/students/:id": "/studentDetails/:id",
+  "/students": "/students"
+}

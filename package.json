@@ -1,0 +1,7 @@
+{
+  "name": "hapara-frontend-assessment",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "npx json-server@0.17.4 --watch ./server/db.json --routes ./server/routes.json"
+  }
+}
