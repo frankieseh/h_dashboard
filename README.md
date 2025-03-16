@@ -1,5 +1,5 @@
 # To run
-(Node v22.13.1, npm v11.2.0
+(Node v22.13.1, npm v11.2.0)
 - Clone the repo
 - Run `npm install` for both the server and the app (the app folder has its own package.json)
 - app can be run with `npm run dev` for development, or `npm run build` -> `npm run start` for a prod build (both will run on localhost:80)
