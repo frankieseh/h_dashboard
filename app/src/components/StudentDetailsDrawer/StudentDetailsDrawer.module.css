@@ -1,0 +1,47 @@
+.student_details_drawer {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 600px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: left;
+  justify-items: center;
+  font-family: var(--font-geist-sans);
+  border-left: 1px solid gray;
+  background: var(--background);
+}
+
+.student_details_drawer header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.student_details_drawer header * {
+  display: block;
+}
+
+.student_details_drawer section {
+  margin-top: 16px;
+}
+
+.student_details_drawer section h4 {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .student_details_drawer {
+    width: 100%;
+  }
+
+  .student_details_drawer header {
+    display: block;
+  }
+
+  .student_details_drawer header * {
+    width: 100%;
+  }
+}

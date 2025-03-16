@@ -1,0 +1,44 @@
+.student_tile {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  padding: 8px;
+  align-items: center;
+  justify-content: left;
+  font-family: var(--font-geist-sans);
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: clamp(200px, 25%, 25vw);
+}
+
+.interactive:hover {
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 0 0 4px 2px gray;
+  transform: scale(1.01);
+  transition: transform 0.1s ease-in-out;
+}
+
+.name {
+  text-overflow: hidden;
+}
+
+.current_screen { 
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offline {
+  color: #ff0000;
+}
+
+.online {
+  color: #00cc00;
+}
+
+/* @media (max-width: 600px) {
+
+} */
